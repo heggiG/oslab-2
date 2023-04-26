@@ -9,7 +9,7 @@
 int main() {
 
     // Open the bitmap file
-    int fd = open("example.bmp", O_RDWR);
+    int fd = open("../assets/example.bmp", O_RDWR);
     if (fd < 0) {
         printf("Error: Failed to open file\n");
         exit(EXIT_FAILURE);
